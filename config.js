@@ -10,7 +10,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsxscr.db' : proce
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v0.16.0 Public Stable',
+    VERSION: 'v0.16.5 Public Stable',
     SESSION: process.env.XSCR_SESSION === undefined ? '' : process.env.XSCR_SESSION,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://telegra.ph/file/458e3b70e4001509a6533.png' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
