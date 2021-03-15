@@ -1,6 +1,6 @@
 {
   "name": "WhatsXscr",
-  "version": "0.16.0",
+  "version": "0.16.5",
   "description": "WhatsXscr project - a Whatsapp userbot helping to improve your Whatsapp experience.",
   "main": "./WhatsXscr/bot.js",
   "scripts": {
